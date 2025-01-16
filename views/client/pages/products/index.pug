@@ -1,3 +1,17 @@
 extends ../../layouts/default.pug
+include ../../mixins/box-head.pug
 block main
-    h1 Trang nay la trang danh sach san pham
+    .container.my-3
+        .row
+            .col-12
+                +box-head("Danh sach san pham")
+        .row
+            .col-4.mb-3
+                .product-item
+                    .inner-image
+                        img(src="https://cdn.tgdd.vn/Files/2020/04/08/1247501/apple-iphone-9-3_940x627-800-resize.jpg", alt="iPhone 9")
+                    .inner-content
+                        h3.inner-title iPhone 9
+                        .inner-price-new 80$
+                        .inner-price-old 100$
+                        .inner-discount -20%

@@ -1,2 +1,93 @@
-.test {
+.header {
+  border: 1px solid;
+  padding: 10px;
+  /* justify-content: space-between; */
+  margin-bottom: 50px;
+}
+.inner-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.inner-menu ul {
+  display: flex;
+  list-style: none;
+  /* padding: 10px; */
+}
+.inner-menu ul li a {
+  padding: 10px;
+}
+.footer {
+  margin-top: 50px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* css san pham */
+.box-head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inner-title {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Sản phẩm */
+.product-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inner-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.inner-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.inner-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.inner-price-new {
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.inner-price-old {
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 16px;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.inner-discount {
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #27ae60;
 }
